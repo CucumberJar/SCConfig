@@ -3,13 +3,6 @@ server:
 spring:
   application:
     name: shop
-  cloud:
-    config:
-      server:
-        git:
-          username: CucumberJar
-          password: Vbhrf2006V
-          uri: https://github.com/CucumberJar/config.git
   datasource:
     url: jdbc:postgresql://localhost:5433/postgres
     username: postgres
